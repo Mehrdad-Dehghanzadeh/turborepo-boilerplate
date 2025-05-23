@@ -1,6 +1,10 @@
 {
-  "name": "my-turborepo",
-  "private": true,
+  "name": "turborepo-bolierplate",
+  "private": false,
+  "author": {
+    "name": "Mehrdad Dehghanzadeh",
+    "email": "mehrdad.dehghanzadeh.dev@gmail.com"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
