@@ -6,14 +6,29 @@
     "name": "Mehrdad Dehghanzadeh",
     "email": "mehrdad.dehghanzadeh.dev@gmail.com"
   },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mehrdad-Dehghanzadeh/turborepo-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mehrdad-Dehghanzadeh/turborepo-boilerplate/issues"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{js,css,md,html,ts}": "prettier --write"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "check-types": "turbo run check-types",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "prettier": "^3.5.3",
     "turbo": "^2.5.4",
     "typescript": "5.8.2"
