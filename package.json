@@ -22,7 +22,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,css,scss,md,mdx,html,ts,tsx}\"",
     "check-types": "turbo run check-types",
     "prepare": "husky"
   },
