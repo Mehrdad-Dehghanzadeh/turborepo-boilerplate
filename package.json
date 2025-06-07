@@ -16,7 +16,7 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown",
-    "*.{js,jsx,css,scss,md,mdx,html,ts,tsx}": "prettier --write"
+    "*.{js,jsx,css,scss,md,mdx,html,ts,tsx}": "prettier --write \"**/*.{js,jsx,css,scss,md,mdx,html,ts,tsx}\""
   },
   "scripts": {
     "build": "turbo run build",
