@@ -9,7 +9,6 @@ interface ButtonProps {
 }
 
 export const Button = ({ children, className, appName }: ButtonProps) => {
-  console.log(process.env)
   return (
     <button
       className={className}
