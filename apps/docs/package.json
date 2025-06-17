@@ -11,14 +11,15 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@repo/ui": "^0.0.0",
+    "@repo/ui": "*",
     "next": "^15.3.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "^0.0.0",
-    "@repo/typescript-config": "^0.0.0",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@repo/shared-types": "*",
     "@types/node": "^22.15.30",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
