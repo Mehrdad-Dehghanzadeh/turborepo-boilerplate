@@ -36,9 +36,8 @@ export default function Home() {
             Get started by editing <code>apps/docs/app/page.tsx</code>
           </li>
           <li>Save and see your changes instantly.</li>
-          <li>{process.env.API_URL}</li>
           <li>{process.env.NODE_ENV}</li>
-          <li>{process.env.MONOREPO}</li>
+          <li>{process.env.APP_NAME}</li>
         </ol>
 
         <div className={styles.ctas}>
