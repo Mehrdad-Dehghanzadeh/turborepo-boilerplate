@@ -5,13 +5,13 @@
   "private": false,
   "scripts": {
     "dev": "env-cmd -e dev -r .env.json next dev --turbopack",
-    "build": "env-cmd -e prod -r .env.json next build",
-    "start": "env-cmd -e prod -r .env.json next start",
+    "build": "env-cmd -e production -r .env.json next build",
+    "start": "env-cmd -e production -r .env.json next start",
     "lint": "env-cmd -e dev -r .env.json next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@repo/ui": "^0.0.0",
+    "@repo/ui-kit": "*",
     "env-cmd": "^10.1.0",
     "next": "^15.3.3",
     "react": "^19.1.0",
