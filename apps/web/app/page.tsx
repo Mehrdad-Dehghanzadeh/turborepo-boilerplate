@@ -1,5 +1,6 @@
 import Image, { type ImageProps } from 'next/image'
 import Button from '@repo/ui-kit/Button'
+import Card from '@repo/ui-kit/Card'
 import styles from './page.module.css'
 
 type Props = Omit<ImageProps, 'src'> & {
@@ -67,6 +68,8 @@ export default function Home() {
           </a>
         </div>
         <Button>Open alert</Button>
+
+        <Card tagName="div">asdasdasdasdasd</Card>
       </main>
       <footer className={styles.footer}>
         <a

@@ -6,6 +6,10 @@
     "./Button": {
       "default": "./src/Button/Button.tsx",
       "types": "./src/Button/TButton.ts"
+    },
+    "./Card": {
+      "default": "./src/Card/Card.tsx",
+      "types": "./src/Card/TCard.ts"
     }
   },
   "scripts": {

@@ -1,1 +1,3 @@
-export interface TButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
+import type React from 'react'
+
+export type TButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {}
