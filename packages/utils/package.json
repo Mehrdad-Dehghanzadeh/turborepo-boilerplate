@@ -1,5 +1,5 @@
 {
-  "name": "@repo/shared-types",
+  "name": "@repo/utils",
   "version": "0.0.1",
   "private": false,
   "license": "MIT",
@@ -10,10 +10,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "@types/node": "^22.15.30",
-    "eslint": "^9.28.0",
-    "typescript": "5.8.2"
+    "@repo/shared-types": "*"
   }
 }
