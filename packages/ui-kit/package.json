@@ -18,17 +18,10 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@repo/eslint-config": "^0.0.0",
-    "@repo/typescript-config": "^0.0.0",
-    "@types/node": "^22.15.30",
-    "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
-    "eslint": "^9.28.0",
-    "sass": "^1.89.2",
-    "typescript": "5.8.2"
+    "@repo/shared-types": "*",
+    "sass": "^1.89.2"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@repo/shared": "*"
   }
 }
