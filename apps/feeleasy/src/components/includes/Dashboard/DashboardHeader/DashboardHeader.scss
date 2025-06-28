@@ -1,0 +1,13 @@
+.dashboard-header {
+  margin-bottom: 48px;
+
+  &__avatar {
+    cursor: pointer;
+  }
+
+  &__user-info {
+    margin-left: 12px;
+    text-align: right;
+    @include text-size(0.75rem, 1.6, 300);
+  }
+}

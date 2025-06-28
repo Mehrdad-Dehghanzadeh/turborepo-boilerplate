@@ -1,0 +1,17 @@
+.MuiFormControl-root {
+  label,
+  input,
+  .muirtl-11virpv-MuiTypography-root {
+    font-size: 0.8rem;
+  }
+
+  legend {
+    text-align: right;
+    font-size: 0.7em;
+
+    span {
+      font-size: 0.85em;
+      text-align: right;
+    }
+  }
+}

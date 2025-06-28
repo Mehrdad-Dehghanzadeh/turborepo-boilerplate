@@ -1,0 +1,35 @@
+<svg width="298" height="279" viewBox="0 0 298 279" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="64" cy="64" r="64" transform="matrix(0.5 0.866025 0.866025 -0.5 13.5234 141.749)" fill="#E4A82E"/>
+<g filter="url(#filter0_bdi_2655_10464)">
+<circle cx="92.5" cy="92.5" r="92.5" transform="matrix(0.5 0.866025 0.866025 -0.5 44.7314 92.5)" fill="white" fill-opacity="0.1" shape-rendering="crispEdges"/>
+</g>
+<path d="M196.231 107L190.631 96.1984C189.771 94.5406 188.059 93.5 186.192 93.5H183.731M196.231 107H184.731M196.231 107C196.231 110.038 193.769 112.5 190.731 112.5C187.694 112.5 184.731 110.038 184.731 107M140.231 107L145.832 96.1984C146.692 94.5406 148.404 93.5 150.271 93.5H153.231M140.231 107H151.731M140.231 107C140.231 110.038 143.194 112.5 146.231 112.5C149.269 112.5 151.731 110.038 151.731 107M183.731 93.5L184.731 107M183.731 93.5H173.731M184.731 107H173.731M184.731 107C184.731 110.038 182.269 112.5 179.231 112.5C176.194 112.5 173.731 110.038 173.731 107M173.731 93.5V107M173.731 93.5H162.731M173.731 107H162.731M173.731 107C173.731 110.038 171.269 112.5 168.231 112.5C165.194 112.5 162.731 110.038 162.731 107M162.731 93.5V107M162.731 93.5H153.231M162.731 107H151.731M162.731 107C162.731 110.038 160.269 112.5 157.231 112.5C154.194 112.5 151.731 110.038 151.731 107M153.231 93.5L151.731 107" stroke="black" stroke-width="2.2"/>
+<path d="M142.731 135.5V111.5M193.731 111.98V121.58" stroke="black" stroke-width="2.2"/>
+<path d="M168.912 135.555V135.555C168.912 130.925 165.159 127.171 160.529 127.171H157.529C152.899 127.171 149.146 130.925 149.146 135.555V135.555" stroke="black" stroke-width="2.2"/>
+<circle cx="159.029" cy="121.391" r="5.77997" stroke="black" stroke-width="2.2"/>
+<path d="M172.731 135.5H141.731C140.627 135.5 139.731 136.395 139.731 137.5V156.5C139.731 157.605 140.627 158.5 141.731 158.5H193.731C194.836 158.5 195.731 157.605 195.731 156.5V145.5" stroke="black" stroke-width="2.2"/>
+<path d="M176.731 144.257H155.593C155.04 144.257 154.593 144.705 154.593 145.257V150.782C154.593 151.334 155.04 151.782 155.593 151.782H180.813C181.365 151.782 181.813 151.334 181.813 150.782V147.5" stroke="black" stroke-width="2.2"/>
+<circle cx="187.015" cy="134.292" r="9.96509" stroke="black" stroke-width="2.2"/>
+<circle cx="187.016" cy="134.292" r="14.0804" stroke="black" stroke-width="2.2"/>
+<path d="M189.231 132.5V132C189.231 130.619 188.112 129.5 186.731 129.5V129.5M184.231 136.5V137C184.231 138.381 185.351 139.5 186.731 139.5V139.5M186.731 129.5V129.5C185.351 129.5 184.231 130.619 184.231 132V132C184.231 133.381 185.351 134.5 186.731 134.5V134.5C188.112 134.5 189.231 135.619 189.231 137V137C189.231 138.381 188.112 139.5 186.731 139.5V139.5M186.731 129.5V128M186.731 139.5V141" stroke="black" stroke-width="2.2" stroke-linecap="round"/>
+<defs>
+<filter id="filter0_bdi_2655_10464" x="60.6732" y="15.9418" width="220.831" height="220.831" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="8.95"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2655_10464"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="5.95"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.541238 0 0 0 0 0.348489 0 0 0 0 0.738178 0 0 0 0.22 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_2655_10464" result="effect2_dropShadow_2655_10464"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_2655_10464" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="3.05"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect3_innerShadow_2655_10464"/>
+</filter>
+</defs>
+</svg>

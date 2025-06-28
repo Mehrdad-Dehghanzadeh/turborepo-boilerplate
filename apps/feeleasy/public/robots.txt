@@ -1,0 +1,4 @@
+User-agent: *
+disallow: *?*
+disallow: /dashboard
+disallow: /dashboard/*

@@ -1,0 +1,33 @@
+.company-item {
+  margin: 16px 0;
+  width: 280px;
+  padding: 4px 0 16px;
+
+  &__icon {
+    width: 100% !important;
+    height: 96px !important;
+    fill: var(--color-gray-600) !important;
+  }
+
+  &__content {
+    padding: 8px 24px 0;
+    @include text-size(0.85rem, 2, 300);
+  }
+
+  &-list {
+    &__item {
+      display: flex;
+      justify-content: space-between;
+
+      &:not(:last-child) {
+        padding-bottom: 12px;
+        border-bottom: 1px dashed var(--color-gray-400);
+        margin-bottom: 12px;
+      }
+    }
+
+    &__title {
+      color: var(--color-primary);
+    }
+  }
+}

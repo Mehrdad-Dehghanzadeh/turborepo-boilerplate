@@ -1,0 +1,13 @@
+.step-cards {
+  & &_arrow {
+    left: 50%;
+    bottom: 0;
+    width: 37px;
+    height: 60px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+}

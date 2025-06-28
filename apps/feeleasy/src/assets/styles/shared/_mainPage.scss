@@ -1,0 +1,19 @@
+.arrow {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  width: 45px !important;
+  height: 70px !important;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: var(--color-primary);
+}

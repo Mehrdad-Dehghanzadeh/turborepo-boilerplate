@@ -1,0 +1,13 @@
+.k-fieldset {
+  border: 1px dashed var(--color-primary);
+  border-radius: 6px;
+  padding: 8px;
+
+  &__title {
+    padding: 0px 8px;
+    font-weight: 300;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,17 @@
+$shadow-light: 0px 2px 32px -12px rgb(0, 0, 0);
+$shadow-medium: 0px 2px 22px -8px rgb(0, 0, 0);
+$shadow-dark: 0px 2px 22px -8px rgb(0, 0, 0);
+
+.shadow {
+  &-light {
+    box-shadow: $shadow-light;
+  }
+
+  &-medium {
+    box-shadow: $shadow-medium;
+  }
+
+  &-dark {
+    box-shadow: $shadow-dark;
+  }
+}

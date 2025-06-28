@@ -1,0 +1,23 @@
+.k-info {
+  padding: 4px 8px;
+  margin-bottom: 12px;
+
+  &__title {
+    color: var(--color-info-700);
+    padding: 0 8px;
+    background: #01579b14;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    @include text-size(0.85rem);
+    @include inline-block();
+
+    &:after {
+      content: ' : ';
+    }
+  }
+
+  &__value {
+    padding-right: 16px;
+    @include text-size(0.85rem, 2, 300);
+  }
+}

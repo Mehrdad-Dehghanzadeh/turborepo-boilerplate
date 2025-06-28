@@ -1,0 +1,25 @@
+.snackbar {
+  &--success > .MuiPaper-root {
+    background-color: var(--color-success-0);
+    border: 1px solid var(--color-success-100);
+    color: var(--color-success-700);
+  }
+
+  &--error > .MuiPaper-root {
+    background-color: var(--color-error-0);
+    border: 1px solid var(--color-error-100);
+    color: var(--color-error-700);
+  }
+
+  &--info > .MuiPaper-root {
+    background-color: var(--color-info-0);
+    border: 1px solid var(--color-info-100);
+    color: var(--color-info-700);
+  }
+
+  &--alert > .MuiPaper-root {
+    background-color: var(--color-warning-0);
+    border: 1px solid var(--color-warning-100);
+    color: var(--color-warning-700);
+  }
+}

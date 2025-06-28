@@ -1,0 +1,50 @@
+{
+  "name": "easylease-frontend",
+  "version": "0.0.0",
+  "private": false,
+  "author": {
+    "name": "Mehrdad Dehghanzadeh",
+    "email": "mehrdad.dehghanzadeh.dev@gmail.com"
+  },
+  "scripts": {
+    "dev": "env-cmd -e dev -r .env.json next dev",
+    "dev-prelive": "env-cmd -e dev-prelive -r .env.json next dev",
+    "build": "env-cmd -e prod -r .env.json next build",
+    "start": "env-cmd -e prod -r .env.json next start",
+    "lint": "env-cmd -e dev -r .env.json next lint"
+  },
+  "dependencies": {
+    "@repo/shared": "*",
+    "@emotion/cache": "=11.11.0",
+    "@emotion/react": "=11.11.4",
+    "@emotion/styled": "=11.11.5",
+    "@mui/material": "^5.16.14",
+    "@mui/icons-material": "=5.15.20",
+    "@mui/material-nextjs": "=5.15.11",
+    "@mui/x-data-grid": "=7.7.0",
+    "@mui/x-date-pickers": "=6.20.1",
+    "axios": "^1.7.2",
+    "cookies-next": "^4.2.1",
+    "date-fns": "^3.6.0",
+    "date-fns-jalali": "^2.13.0-0",
+    "env-cmd": "^10.1.0",
+    "jwt-decode": "^4.0.0",
+    "next": "^14.2.4",
+    "next-client-cookies": "^1.1.1",
+    "next-intl": "^3.15.0",
+    "react-hook-form": "^7.51.5",
+    "react-to-pdf": "^1.0.1",
+    "stylis": "^4.3.2",
+    "stylis-plugin-rtl": "^2.1.1",
+    "sweetalert2": "^11.14.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@repo/shared-types": "*",
+    "@types/stylis": "^4.2.6",
+    "autoprefixer": "^10.4.19",
+    "husky": "^9.0.11",
+    "postcss": "^8.4.38",
+    "sass": "^1.89.2"
+  }
+}

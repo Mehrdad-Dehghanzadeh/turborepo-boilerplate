@@ -1,0 +1,12 @@
+$radius: (
+  'radius-0': 0px,
+  'radius-1': 8px,
+  'radius-2': 13px,
+  'radius-3': 25px
+);
+
+:root {
+  @each $radius-name, $radius-size in $radius {
+    --#{$radius-name}: #{$radius-size};
+  }
+}

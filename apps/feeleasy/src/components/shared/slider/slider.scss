@@ -1,0 +1,45 @@
+.slider-section {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+
+  &-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 500ms ease-in-out;
+    -webkit-transition: 500ms ease-in-out;
+    -moz-transition: 500ms ease-in-out;
+    -ms-transition: 500ms ease-in-out;
+    -o-transition: 500ms ease-in-out;
+    display: block;
+
+    img {
+      width: 100%;
+    }
+
+    &.activeSlide {
+      opacity: 1;
+      z-index: 1;
+    }
+
+    &.lastSlide,
+    &.nextSlide {
+      opacity: 0;
+      z-index: 0;
+    }
+  }
+
+  &-footer {
+    margin-top: 55%;
+    img {
+      width: 100%;
+    }
+  }
+}

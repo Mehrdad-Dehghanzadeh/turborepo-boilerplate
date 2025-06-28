@@ -1,0 +1,25 @@
+.k-data-grid-server {
+  padding: 8px;
+
+  .MuiDataGrid-footerContainer {
+    display: none;
+  }
+
+  .MuiDataGrid-overlayWrapper {
+    min-height: 56px;
+  }
+
+  .MuiDataGrid-columnHeaderTitleContainer {
+    justify-content: start;
+    display: flex;
+  }
+
+  .MuiDataGrid-cell {
+    text-align: right !important;
+  }
+}
+
+.empty-data-grid-server {
+  text-align: center;
+  color: var(--color-gray-500);
+}

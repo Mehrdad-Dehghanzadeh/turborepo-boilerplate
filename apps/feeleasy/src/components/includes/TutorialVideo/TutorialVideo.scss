@@ -1,0 +1,49 @@
+.tutorial-video-section {
+  position: relative;
+  padding: 70px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ababab 0%, #bcbcbc 100%);
+
+  video {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &_background {
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    width: 600px;
+    opacity: 0.4;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  &_title {
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  @media #{map-get($breakpoints, 'mobile')} {
+    padding: 60px 30px;
+
+    &_background {
+      top: 0;
+      opacity: 0.8;
+    }
+
+    video {
+      min-height: 600px;
+    }
+
+    & &_title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  }
+}

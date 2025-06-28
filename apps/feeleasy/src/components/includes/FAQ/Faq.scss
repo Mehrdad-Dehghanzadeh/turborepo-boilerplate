@@ -1,0 +1,16 @@
+.faq-section {
+  padding: 60px 140px;
+
+  &-title {
+    margin-bottom: 50px;
+  }
+
+  @media #{map-get($breakpoints, 'mobile')} {
+    padding: 30px 30px;
+
+    & &-title {
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+  }
+}

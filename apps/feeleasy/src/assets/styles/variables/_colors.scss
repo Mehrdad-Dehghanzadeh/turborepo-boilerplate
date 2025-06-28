@@ -1,0 +1,203 @@
+$colors-primary: (
+  'primary-0': #e7e2ec,
+  'primary-100': #e1c6fd,
+  'primary-200': #c999f9,
+  'primary-300': #b271f2,
+  'primary-400': #9e52e9,
+  'primary-500': #8c3add,
+  'primary-600': #7b29cd,
+  'primary-700': #6a1cb8,
+  'primary-800': #5a14a0,
+  'primary-900': #4b0f87
+);
+
+$colors-secondary: (
+  'secondary-0': #fcfff5,
+  'secondary-100': #eefdc5,
+  'secondary-200': #dff998,
+  'secondary-300': #d0f270,
+  'secondary-400': #c1e950,
+  'secondary-500': #b1dd38,
+  'secondary-600': #a0cd27,
+  'secondary-700': #8eb81b,
+  'secondary-800': #7aa013,
+  'secondary-900': #67870e
+);
+
+$colors-pink: (
+  'pink-0': #fff5fa,
+  'pink-100': #fdc5df,
+  'pink-200': #f998c5,
+  'pink-300': #f270ad,
+  'pink-400': #e95098,
+  'pink-500': #dd3885,
+  'pink-600': #cd2774,
+  'pink-700': #b81b64,
+  'pink-800': #a01355,
+  'pink-900': #870e46,
+  'pink-main': #ee5ba0
+);
+
+$colors-orange: (
+  'orange-0': #fffcf5,
+  'orange-100': #fdeac5,
+  'orange-200': #f9d898,
+  'orange-300': #f2c770,
+  'orange-400': #e9b650,
+  'orange-500': #dda638,
+  'orange-600': #cd9527,
+  'orange-700': #b8841b,
+  'orange-800': #a07113,
+  'orange-900': #875f0e,
+  'orange-main': #e3a62d
+);
+
+$colors-cyan: (
+  'cyan-0': #f5ffff,
+  'cyan-100': #c5fdfc,
+  'cyan-200': #98f9f7,
+  'cyan-300': #70f2f0,
+  'cyan-400': #50e9e7,
+  'cyan-500': #38ddda,
+  'cyan-600': #27cdca,
+  'cyan-700': #1bb8b5,
+  'cyan-800': #13a09e,
+  'cyan-900': #0e8785,
+  'cyan-main': #45c0be
+);
+
+$colors-bg: (
+  'bg-black': #000000,
+  'bg-100': #1a1a1a,
+  'bg-200': #333333,
+  'bg-300': #4d4d4d,
+  'bg-400': #666666,
+  'bg-500': #808080,
+  'bg-600': #999999,
+  'bg-700': #b3b3b3,
+  'bg-800': #c6c6c6,
+  'bg-white': #ffffff
+);
+
+$colors-warning: (
+  'warning-0': #fffdf5,
+  'warning-100': #fdf2c5,
+  'warning-200': #f9e598,
+  'warning-300': #f2d870,
+  'warning-400': #e9cb50,
+  'warning-500': #ddbc38,
+  'warning-600': #cdab27,
+  'warning-700': #b8991b,
+  'warning-800': #a08413,
+  'warning-900': #876f0e
+);
+
+$colors-success: (
+  'success-0': #f5fff9,
+  'success-100': #c5fddc,
+  'success-200': #98f9c0,
+  'success-300': #70f2a6,
+  'success-400': #50e990,
+  'success-500': #38dd7d,
+  'success-600': #27cd6c,
+  'success-700': #1bb85c,
+  'success-800': #13a04e,
+  'success-900': #0e8740
+);
+
+$colors-info: (
+  'info-0': #f5f9ff,
+  'info-100': #c5ddfd,
+  'info-200': #98c2f9,
+  'info-300': #70a9f2,
+  'info-400': #5093e9,
+  'info-500': #3880dd,
+  'info-600': #276fcd,
+  'info-700': #1b5fb8,
+  'info-800': #1350a0,
+  'info-900': #0e4287
+);
+
+$colors-error: (
+  'error-0': #fff6f5,
+  'error-100': #fdcbc5,
+  'error-200': #f9a198,
+  'error-300': #f27d70,
+  'error-400': #e96050,
+  'error-500': #dd4938,
+  'error-600': #cd3827,
+  'error-700': #b82a1b,
+  'error-800': #a02113,
+  'error-900': #871a0e
+);
+
+$colors-common: (
+  'black': #000,
+  'white': #fff,
+  'primary': #643693
+);
+
+$colors-mainbg: (
+  'bg-dashobard-layout': #ebf1f4
+);
+
+$colors-text: (
+  'text-primary': rgba(0, 0, 0, 0.87),
+  'text-secondary': rgba(0, 0, 0, 0.6),
+  'text-disabled': rgba(0, 0, 0, 0.38)
+);
+
+$colors-gray: (
+  'gray-50': #fafafa,
+  'gray-100': #f4f4f4,
+  'gray-200': #eee,
+  'gray-300': #e0e0e0,
+  'gray-400': #bdbdbd,
+  'gray-500': #9e9e9e,
+  'gray-600': #757575,
+  'gray-700': #616161,
+  'gray-800': #424242,
+  'gray-900': #212121,
+  'gray-text': #999999,
+  'gray-bg-1': #efefef,
+  'gray-bg-2': #bcbcbc,
+  'gray-bg-3': #dedede,
+  'gray-bg-4': #d1d1d1,
+  'gray-bg-5': #e9e9e9,
+  'gray-bg-6': #929292,
+  'gray-bg-7': #535353
+);
+
+$colors-border: (
+  'border-0': #f0ebf5,
+  'border-100': #e5ddee
+);
+
+$colors-divider: (
+  'divider': rgba(0, 0, 0, 0.12)
+);
+
+$colors: map-collect(
+  $colors-primary,
+  $colors-secondary,
+  $colors-pink,
+  $colors-orange,
+  $colors-cyan,
+  $colors-bg,
+  $colors-mainbg,
+  $colors-warning,
+  $colors-success,
+  $colors-info,
+  $colors-error,
+  $colors-common,
+  $colors-text,
+  $colors-gray,
+  $colors-divider,
+  $colors-border
+);
+
+:root {
+  @each $color-name, $color-code in $colors {
+    --color-#{$color-name}: #{$color-code};
+  }
+}

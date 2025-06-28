@@ -1,0 +1,53 @@
+.dashboard-nav-desktop {
+  width: map-get($layout-sizes, 'nav-width');
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: map-get($layout-sizes, 'padding');
+
+  &__wrapper {
+    height: 95%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--color-gray-50);
+  }
+
+  &-list {
+    width: 100%;
+    padding: 0 5px !important;
+
+    &__icon {
+      padding-left: 12px;
+      min-width: auto !important;
+      color: var(--color-primary) !important;
+    }
+  }
+
+  &__top {
+    padding: 24px 8px;
+  }
+
+  &__logo {
+    object-fit: contain;
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  &-list__item {
+    &.active-item {
+      background-color: var(--color-primary) !important;
+      color: var(--color-gray-50);
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      .dashboard-nav-desktop-list__icon {
+        color: var(--color-gray-50) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.k-stepper {
+  overflow-x: hidden;
+
+  &__wrapper {
+    display: flex;
+    transform: translateX(0);
+    transition: transform ease-in 250ms;
+  }
+
+  &__item {
+    padding: 8px;
+    flex: 0 0 100%;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+
+    &--show {
+      height: auto;
+      visibility: visible;
+    }
+  }
+}

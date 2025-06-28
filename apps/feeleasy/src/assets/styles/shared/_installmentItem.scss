@@ -1,0 +1,26 @@
+.installment-list {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+
+  &_item {
+    width: 48%;
+    background-color: var(--color-white);
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-height: 160px;
+  }
+
+  @media #{map-get($breakpoints, 'mobile')} {
+    &_item {
+      width: 100%;
+    }
+  }
+}

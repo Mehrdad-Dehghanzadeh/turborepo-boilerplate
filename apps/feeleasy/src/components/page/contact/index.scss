@@ -1,0 +1,57 @@
+.contact-section {
+  text-align: justify;
+  display: block;
+  padding: 0 100px;
+  margin: 100px auto 0 auto;
+  max-width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  background-image: radial-gradient(
+    circle farthest-side at center bottom,
+    hsl(0, 1%, 80%) 0%,
+    hsl(0, 0%, 100%) 40%
+  );
+
+  &-title {
+    text-align: right !important;
+  }
+
+  &-text {
+    color: var(--color-gray-900);
+    font-weight: 300;
+    margin-top: 20px;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    margin: 20px 0;
+  }
+
+  &-background {
+    img {
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  @media #{map-get($breakpoints, 'mobile')} {
+    background-image: radial-gradient(
+      circle farthest-side at center bottom,
+      hsl(0, 1%, 80%) 0%,
+      hsl(0, 0%, 100%) 40%
+    );
+    padding: 0 50px;
+
+    &-title {
+      margin-bottom: 15px;
+    }
+
+    &-background {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

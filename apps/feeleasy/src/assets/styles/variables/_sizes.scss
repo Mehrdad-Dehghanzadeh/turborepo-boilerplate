@@ -1,0 +1,13 @@
+$layout-sizes: (
+  'footer-height': 40px,
+  'header-height': 80px,
+  'nav-mobile-height': 66px,
+  'nav-width': 296px,
+  'padding': 20px
+);
+
+$breakpoints: (
+  'mobile': 'only screen and (max-width: 1024px)',
+  'laptop': '(min-width: 1025px) and (max-width:1400px)',
+  'desktop': 'only screen and (min-width: 1400px)'
+);

@@ -1,0 +1,25 @@
+.k-select {
+  .muirtl-1j13px6-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    font-size: 0.85rem !important;
+  }
+
+  .muirtl-tlelie-MuiListItemText-root {
+    flex: initial;
+    margin-left: 4px;
+    margin-right: 4px;
+
+    &:first-child {
+      margin-right: 0;
+    }
+  }
+
+  .MuiSelect-select {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .value-chip {
+    background: #faf5ff;
+    color: #7b29cd;
+  }
+}

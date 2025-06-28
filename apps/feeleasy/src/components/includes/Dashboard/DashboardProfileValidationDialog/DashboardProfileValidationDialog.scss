@@ -1,0 +1,27 @@
+.profile-validation-dialog {
+  &__header {
+    padding: 4px 4px 16px;
+    @include flex-column();
+    @include flex-center();
+  }
+
+  &__icon {
+    font-size: 96px !important;
+  }
+
+  &__title {
+    color: var(--color-error-light);
+  }
+
+  &__action {
+    justify-content: center;
+  }
+
+  &__list {
+    @include text-size(0.8rem, 2, 300);
+
+    &__item {
+      list-style-type: disc;
+    }
+  }
+}

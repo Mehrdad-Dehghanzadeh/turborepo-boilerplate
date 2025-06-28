@@ -1,0 +1,45 @@
+.contract {
+  text-align: justify;
+  white-space: normal;
+
+  & h1,
+  & h2,
+  & h3 {
+    margin: 15px 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  & ul,
+  & ol {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  & p,
+  & div {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  & table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  & table th,
+  & table td {
+    border: 1px solid var(--color-gray-600);
+    padding: 8px;
+    text-align: right;
+  }
+
+  & table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+  }
+}

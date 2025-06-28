@@ -1,0 +1,14 @@
+.k-text-field {
+  .MuiInputBase-input {
+    padding: 16px;
+  }
+
+  .MuiInputLabel-outlined {
+    color: var(--color-bg-500);
+
+    & .Mui-focused {
+      color: var(--color-bg-500);
+      font-size: 10px;
+    }
+  }
+}

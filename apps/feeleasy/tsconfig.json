@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./*"],
+      "@public/*": ["./public/*"],
+      "@components/*": ["./src/components/*"],
+      "@components-page/*": ["./src/components/page/*"],
+      "@components-kits": ["./src/components/kits"],
+      "@components-kits/*": ["./src/components/kits/*"],
+      "@components-includes": ["./src/components/includes"],
+      "@components-includes/*": ["./src/components/includes/*"],
+      "@components-shared/*": ["./src/components/shared/*"],
+      "@locales/*": ["./src/locales/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@type/*": ["./src/ts/type/*"],
+      "@enums/*": ["./src/ts/enums/*"],
+      "@models/*": ["./src/ts/models/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@context/*": ["./src/context/*"],
+      "@apis": ["./src/apis/index"],
+      "@store": ["./src/store"],
+      "@data/*": ["./src/assets/data/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "./src/ts/global.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}
