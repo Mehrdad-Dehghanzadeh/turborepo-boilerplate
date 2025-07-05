@@ -16,6 +16,10 @@
     "prettier": "^3.2.5",
     "turbo": "^2.5.4"
   },
-  "packageManager": "pnpm@8.15.6",
-  "name": "design-system"
+  "name": "design-system",
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
