@@ -20,8 +20,6 @@
     "@repo/eslint-config": "*",
     "@repo/shared-types": "*",
     "@repo/typescript-config": "*",
-    "@types/react": "19.1.8",
-    "eslint": "^9.28.0",
-    "typescript": "5.8.2"
+    "eslint": "^9.28.0"
   }
 }
