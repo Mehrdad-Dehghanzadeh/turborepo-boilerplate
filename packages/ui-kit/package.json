@@ -1,0 +1,27 @@
+{
+  "name": "@repo/ui-kit",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./Button": {
+      "default": "./src/Button/Button.tsx",
+      "types": "./src/Button/TButton.ts"
+    },
+    "./Card": {
+      "default": "./src/Card/Card.tsx",
+      "types": "./src/Card/TCard.ts"
+    }
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/shared-types": "*",
+    "sass": "^1.89.2"
+  },
+  "dependencies": {
+    "@repo/shared": "*"
+  }
+}
