@@ -1,8 +1,8 @@
 import type { ComponentProps } from 'react'
 import type { Control, RegisterOptions } from 'react-hook-form'
-type TOmited = 'size' | 'type'
+type TOmitted = 'size' | 'type'
 
-export type TTextFieldProps = Omit<ComponentProps<'input'>, TOmited> & {
+export type TTextFieldProps = Omit<ComponentProps<'input'>, TOmitted> & {
   control: Control<any>
   name: string
   type?: 'number' | 'text' | 'tel' | 'email' | 'url'
