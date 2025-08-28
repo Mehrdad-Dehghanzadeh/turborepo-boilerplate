@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@repo/shared": "*",
+    "@repo/locales": "*",
     "@repo/ui-kit": "*",
     "env-cmd": "^10.1.0",
     "next": "^15.3.3"
@@ -19,7 +20,6 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/shared-types": "*",
-    "@repo/typescript-config": "*",
-    "eslint": "^9.28.0"
+    "@repo/typescript-config": "*"
   }
 }

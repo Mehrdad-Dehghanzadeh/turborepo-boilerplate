@@ -1,0 +1,13 @@
+{
+  "name": "@repo/locales",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@repo/shared-types": "*"
+  }
+}
