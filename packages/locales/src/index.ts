@@ -21,7 +21,19 @@ function checkPattern(str: string) {
   }
 }
 
-function findValue(keysOfStr: string[]) {
+function attachDataToString(value: string, data: TData<string | number>): string {
+  const keysOfData = Object.keys(data).filter((el) => value.includes(`{${el}}`))
+
+  if (keysOfData.length) {
+    keysOfData.forEach((el: keyof typeof data) => {
+      value = value.replace(`{${el}}`, `${data?.[el]}`)
+    })
+  }
+
+  return value
+}
+
+function findValue(keysOfStr: string[]): string | TData<any> {
   const value = keysOfStr.reduce(
     (accumulator: TData, currentValue: string) => accumulator?.[currentValue] || null,
     messages
@@ -34,18 +46,18 @@ function findValue(keysOfStr: string[]) {
   }
 }
 
-function sensitizeString(str: string) {
+function sensitizeString(str: string): string {
   return str.replaceAll(/[\[\]\\]/g, '')
 }
 
-export function $t(str: string) {
+export function $t(str: string, data?: TData<string | number>) {
   try {
     checkPattern(str)
     const s = sensitizeString(str)
     const keysOfStr = s.split('.')
     const value = findValue(keysOfStr)
 
-    return value
+    return typeof value === 'string' && data ? attachDataToString(value, data) : value
   } catch (e) {
     console.error(e)
   }

@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@repo/shared-types": "*",
+    "name": "@repo/locales",
     "sass": "^1.89.2"
   },
   "dependencies": {

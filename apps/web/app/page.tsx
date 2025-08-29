@@ -1,6 +1,5 @@
 import Image, { type ImageProps } from 'next/image'
 import Button from '@repo/ui-kit/Button'
-import { $t } from '@repo/locales'
 import Card from '@repo/ui-kit/Card'
 import styles from './page.module.css'
 
@@ -19,8 +18,6 @@ const ThemeImage = (props: Props) => {
     </>
   )
 }
-
-console.log($t('validations'))
 
 export default function Home() {
   return (
