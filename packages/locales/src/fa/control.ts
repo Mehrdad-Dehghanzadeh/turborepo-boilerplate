@@ -1,0 +1,7 @@
+export default {
+  placeholder: {
+    input: 'لطفا وارد کنید',
+    select: 'لطفا انتخاب کنید'
+  },
+  noResult: 'موردی یافت نشد'
+}

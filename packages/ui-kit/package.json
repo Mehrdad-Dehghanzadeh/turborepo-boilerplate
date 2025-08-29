@@ -1,6 +1,6 @@
 {
   "name": "@repo/ui-kit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "exports": {
     "./Button": {
@@ -19,9 +19,11 @@
   },
   "devDependencies": {
     "@repo/shared-types": "*",
+    "name": "@repo/locales",
     "sass": "^1.89.2"
   },
   "dependencies": {
-    "@repo/shared": "*"
+    "@repo/shared": "*",
+    "@repo/locales": "*"
   }
 }
