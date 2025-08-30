@@ -50,7 +50,10 @@ function sensitizeString(str: string): string {
   return str.replaceAll(/[\[\]\\]/g, '')
 }
 
-export function $t(str: string, data?: TData<string | number>) {
+export function $t(
+  str: string,
+  data?: TData<string | number>
+): string | TData<any> | undefined {
   try {
     checkPattern(str)
     const s = sensitizeString(str)
