@@ -16,7 +16,7 @@ export const TextField: FC<TTextFieldProps> = ({
   const { selfId } = useFormElements({ id })
 
   const renderFC: RenderFC = {
-    render({ field }) {
+    render({ field, fieldState, formState }) {
       const onChangeEvent: React.ChangeEventHandler<HTMLInputElement> = (e) => {
         field.onChange(e)
         onChange?.(e)
@@ -33,7 +33,11 @@ export const TextField: FC<TTextFieldProps> = ({
               {...props}
             />
           </div>
-          <em></em>
+          {fieldState.invalid && (
+            <em className="text-field__error-message">
+              {fieldState.error?.message || ''}
+            </em>
+          )}
         </>
       )
     }
