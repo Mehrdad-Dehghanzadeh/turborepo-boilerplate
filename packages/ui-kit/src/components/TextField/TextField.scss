@@ -1,0 +1,12 @@
+.text-field {
+  &__input {
+    &--error {
+      border: 1px solid red;
+    }
+  }
+
+  &__error-message {
+    font-size: 0.7rem;
+    color: red;
+  }
+}

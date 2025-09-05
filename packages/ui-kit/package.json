@@ -3,13 +3,20 @@
   "version": "0.0.1",
   "private": true,
   "exports": {
+    "./hooks/*": {
+      "default": "./src/hooks/*.ts"
+    },
     "./Button": {
-      "default": "./src/Button/Button.tsx",
-      "types": "./src/Button/TButton.ts"
+      "default": "./src/components/Button/Button.tsx",
+      "types": "./src/components/Button/TButton.ts"
     },
     "./Card": {
-      "default": "./src/Card/Card.tsx",
-      "types": "./src/Card/TCard.ts"
+      "default": "./src/components/Card/Card.tsx",
+      "types": "./src/components/Card/TCard.ts"
+    },
+    "./TextField": {
+      "default": "./src/components/TextField/TextField.tsx",
+      "types": "./src/components/TextField/TTextField.ts"
     }
   },
   "scripts": {
@@ -24,6 +31,8 @@
   },
   "dependencies": {
     "@repo/shared": "*",
+    "react-hook-form": "^7.62.0",
+    "@repo/utils": "*",
     "@repo/locales": "*"
   }
 }
