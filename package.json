@@ -29,6 +29,7 @@
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.1.0",
+    "postcss-cli": "^11.0.1",
     "prettier": "^3.5.3",
     "turbo": "^2.5.4"
   },

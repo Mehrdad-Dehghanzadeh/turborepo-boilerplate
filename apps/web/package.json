@@ -20,7 +20,6 @@
     "next": "^15.3.3"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
     "@repo/shared-types": "*",
     "@repo/typescript-config": "*"
   }
