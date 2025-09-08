@@ -1,0 +1,17 @@
+.justify-items {
+  &-center {
+    justify-items: center;
+  }
+
+  &-start {
+    justify-items: start;
+  }
+
+  &-end {
+    justify-items: end;
+  }
+
+  &-stretch {
+    justify-items: stretch;
+  }
+}

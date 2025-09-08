@@ -1,0 +1,103 @@
+@use '../functions/maps';
+
+$colors-common: (
+  'black': #000,
+  'white': #fff
+);
+
+$colors-bg: (
+  'bg-dashobard-layout': #ebf1f4
+);
+
+$colors-primary: (
+  'primary-main': #643695,
+  'primary-light': #9272b4,
+  'primary-dark': #462568
+);
+
+$colors-secondary: (
+  'secondary-main': #a6ce39,
+  'secondary-light': #c0dc74,
+  'secondary-dark': #749027
+);
+
+$colors-error: (
+  'error-main': #d32f2f,
+  'error-light': #ef5350,
+  'error-dark': #c62828
+);
+
+$colors-warning: (
+  'warning-main': #e5a82f,
+  'warning-light': #ecc26d,
+  'warning-dark': #a07520
+);
+
+$colors-info: (
+  'info-main': #0288d1,
+  'info-light': #03a9f4,
+  'info-dark': #01579b
+);
+
+$colors-success: (
+  'success-main': #2e7d32,
+  'success-light': #4caf50,
+  'success-dark': #1b5e20
+);
+
+$colors-pink: (
+  'pink-main': #ef5ba1,
+  'pink-light': #f59cc6,
+  'pink-dark': #a73f70
+);
+
+$colors-cyan: (
+  'cyan-main': #46c1be,
+  'cyan-light': #90d9d8,
+  'cyan-dark': #318785
+);
+
+$colors-text: (
+  'text-primary': rgba(0, 0, 0, 0.87),
+  'text-secondary': rgba(0, 0, 0, 0.6),
+  'text-disabled': rgba(0, 0, 0, 0.38)
+);
+
+$colors-gery: (
+  'gery-50': #fafafa,
+  'gery-100': #f5f5f5,
+  'gery-200': #eee,
+  'gery-300': #e0e0e0,
+  'gery-400': #bdbdbd,
+  'gery-500': #9e9e9e,
+  'gery-600': #757575,
+  'gery-700': #616161,
+  'gery-800': #424242,
+  'gery-900': #212121
+);
+
+$colors-divider: (
+  'divider': rgba(0, 0, 0, 0.12)
+);
+
+$colors: maps.map-collect(
+  $colors-common,
+  $colors-primary,
+  $colors-secondary,
+  $colors-error,
+  $colors-warning,
+  $colors-info,
+  $colors-success,
+  $colors-pink,
+  $colors-cyan,
+  $colors-text,
+  $colors-gery,
+  $colors-divider,
+  $colors-bg
+);
+
+:root {
+  @each $color-name, $color-code in $colors {
+    --color-#{$color-name}: #{$color-code};
+  }
+}

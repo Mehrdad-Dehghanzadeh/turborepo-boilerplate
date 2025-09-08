@@ -1,0 +1,25 @@
+{
+  "name": "@repo/styles",
+  "version": "0.0.0",
+  "private": false,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./custom": "./src/custom/index.scss",
+    "./functions": "./src/functions/index.scss",
+    "./mixins": "./src/mixins/index.scss",
+    "./variables": "./src/variables/index.scss",
+    "./postcss.config": "./postcss.config.js"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "browserslist": "^4.25.4",
+    "cssnano": "^7.1.1",
+    "postcss": "^8.5.6"
+  }
+}

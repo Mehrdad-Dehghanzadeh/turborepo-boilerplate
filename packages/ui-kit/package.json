@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "exports": {
-    "./hooks/*": {
-      "default": "./src/hooks/*.ts"
+    "./Root": {
+      "default": "./src/components/Root/Root.tsx",
+      "types": "./src/components/Root/TRoot.ts"
     },
     "./Button": {
       "default": "./src/components/Button/Button.tsx",
@@ -17,6 +18,13 @@
     "./TextField": {
       "default": "./src/components/TextField/TextField.tsx",
       "types": "./src/components/TextField/TTextField.ts"
+    },
+    "./UiKitProvider": {
+      "default": "./src/providers/UiKit/UiKit.tsx",
+      "types": "./src/providers/UiKit/TUiKit.ts"
+    },
+    "./hooks/*": {
+      "default": "./src/hooks/*.ts"
     }
   },
   "scripts": {
@@ -25,14 +33,13 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@repo/shared-types": "*",
-    "name": "@repo/locales",
-    "sass": "^1.89.2"
+    "@repo/shared-types": "*"
   },
   "dependencies": {
     "@repo/shared": "*",
-    "react-hook-form": "^7.62.0",
     "@repo/utils": "*",
-    "@repo/locales": "*"
+    "@repo/locales": "*",
+    "@repo/styles": "*",
+    "react-hook-form": "^7.62.0"
   }
 }

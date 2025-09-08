@@ -4,3 +4,5 @@ type TColor = {
 }
 
 export type Color = string | TColor
+
+export type TTheme = 'light' | 'dark'
