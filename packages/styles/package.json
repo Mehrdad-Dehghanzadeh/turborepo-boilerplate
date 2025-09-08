@@ -15,10 +15,7 @@
     "postcss": "^8.5.6"
   },
   "browserslist": [
-    "Chrome >=80",
-    "Firefox >=78",
-    "Edge >=80",
-    "Safari >=14",
-    "iOS >=14"
+    "Safari >=7",
+    "iOS >=7"
   ]
 }
