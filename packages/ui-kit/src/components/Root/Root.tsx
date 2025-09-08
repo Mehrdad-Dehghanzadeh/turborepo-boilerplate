@@ -1,7 +1,7 @@
 import type { TRoot } from './TRoot'
 import React from 'react'
-import '@repo/styles/variables/_colors.scss'
-import '@repo/styles/custom/index.scss'
+import '@repo/styles/variables'
+import '@repo/styles/custom'
 
 const Root: React.FC<TRoot> = ({ children }) => {
   return <>{children}</>

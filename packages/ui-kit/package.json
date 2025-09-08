@@ -41,9 +41,5 @@
     "@repo/locales": "*",
     "@repo/styles": "*",
     "react-hook-form": "^7.62.0"
-  },
-  "browserslist": [
-    "Safari >=7",
-    "iOS >=7"
-  ]
+  }
 }

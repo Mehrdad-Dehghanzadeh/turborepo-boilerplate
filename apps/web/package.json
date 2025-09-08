@@ -22,9 +22,5 @@
   "devDependencies": {
     "@repo/shared-types": "*",
     "@repo/typescript-config": "*"
-  },
-  "browserslist": [
-    "Safari >=8",
-    "iOS >=8"
-  ]
+  }
 }

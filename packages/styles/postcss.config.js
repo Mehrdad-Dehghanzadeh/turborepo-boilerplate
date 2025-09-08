@@ -1,9 +1,12 @@
 module.exports = {
   plugins: [
-    require('cssnano')({
-      preset: 'default'
-    }),
+    [
+      'cssnano',
+      {
+        preset: 'default'
+      }
+    ],
 
-    require('autoprefixer')
+    'autoprefixer'
   ]
 }

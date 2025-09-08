@@ -1,11 +1,15 @@
 .text-field {
   &__input {
     &--error {
+      display: flex;
+      justify-content: center;
       border: 1px solid var(--color-error-main);
     }
   }
 
   &__error-message {
+    display: flex;
+    justify-content: center;
     font-size: 0.7rem;
     color: var(--color-error-main);
   }
