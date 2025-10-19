@@ -41,3 +41,7 @@ type EnumType = {
 }
 
 type EnumList = Array<EnumType>
+
+declare module '*.css'
+declare module '*.scss'
+declare module '*.sass'
