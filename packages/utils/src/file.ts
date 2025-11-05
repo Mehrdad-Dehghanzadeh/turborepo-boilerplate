@@ -1,7 +1,7 @@
 /**
  * Download  Base 64
  ***********************************/
-export function dowloadBase64(name: string, base64: string, type: string = ''): void {
+export function downloadBase64(name: string, base64: string, type: string = ''): void {
   let a: HTMLAnchorElement = document.createElement('a')
   const header: string = type ? `data:${type};base64,` : ''
   a.href = `${header}${base64}`
