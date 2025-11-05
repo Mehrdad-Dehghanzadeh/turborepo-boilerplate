@@ -1,12 +1,14 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import { useForm, SubmitHandler } from 'react-hook-form'
 import { TextField } from '@repo/ui-kit/TextField'
+import { Modal } from '@repo/ui-kit/Modal'
 import { requiredRule } from '@repo/utils/validationsRules'
 interface IFormInput {
   firstName: string
 }
 export const H1: React.FC = () => {
+  const [open, setOpen] = useState<boolean>(false)
   const { control, handleSubmit } = useForm<IFormInput>({
     defaultValues: {
       firstName: ''
@@ -29,6 +31,18 @@ export const H1: React.FC = () => {
 
         <button type="submit">submit</button>
       </form>
+
+      <button
+        onClick={() => {
+          setOpen(true)
+        }}
+      >
+        sss
+      </button>
+
+      <Modal open={open} setOpen={setOpen}>
+        <section id="sections"></section>
+      </Modal>
     </div>
   )
 }

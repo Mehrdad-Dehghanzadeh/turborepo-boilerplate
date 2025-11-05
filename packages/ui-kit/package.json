@@ -19,6 +19,10 @@
       "default": "./src/components/TextField/TextField.tsx",
       "types": "./src/components/TextField/TTextField.ts"
     },
+    "./Modal": {
+      "default": "./src/components/Modal/Modal.tsx",
+      "types": "./src/components/Modal/TModal.ts"
+    },
     "./UiKitProvider": {
       "default": "./src/providers/UiKit/UiKit.tsx",
       "types": "./src/providers/UiKit/TUiKit.ts"
