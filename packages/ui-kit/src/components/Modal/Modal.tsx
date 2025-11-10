@@ -1,5 +1,6 @@
 import { useEffect, type FC } from 'react'
 import type { TModal } from './TModal'
+import { classList } from '@repo/utils/dom'
 import './Modal.scss'
 
 export const Modal: FC<TModal> = ({
@@ -7,6 +8,7 @@ export const Modal: FC<TModal> = ({
   setOpen,
   children,
   className = '',
+  maxWidth = 'sx',
   disablePortal = false
 }) => {
   const bodyClassName = 'modal-is-open'
@@ -16,7 +18,7 @@ export const Modal: FC<TModal> = ({
   }
 
   const handleClose = () => {
-    setOpen(false)
+    setOpen?.(false)
     document?.body?.classList?.remove(bodyClassName)
   }
 
@@ -37,7 +39,15 @@ export const Modal: FC<TModal> = ({
       className={`modal ${open ? 'modal--open' : ''}`}
       onClick={disablePortal ? undefined : handleClose}
     >
-      <div className={`modal__container ${className}`}>{children}</div>
+      <div
+        className={classList([
+          `modal__container`,
+          maxWidth != 'sx' ? `modal__container--${maxWidth}` : '',
+          className
+        ])}
+      >
+        {children}
+      </div>
     </div>
   )
 }
