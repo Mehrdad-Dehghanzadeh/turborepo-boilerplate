@@ -1,0 +1,8 @@
+@use '@repo/styles/mixins' as *;
+
+.chip {
+  padding: 8px 16px;
+  border-radius: 12px;
+
+  @include create-chip('success', var(--color-success));
+}

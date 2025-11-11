@@ -1,0 +1,16 @@
+@mixin create-chip($name, $bg-color, $fg-color: var(--color-white)) {
+  &-#{$name} {
+    background-color: $bg-color;
+    color: $fg-color;
+    @content;
+  }
+}
+
+@mixin create-outlined-chip($name, $bg-color, $fg-color: var(--color-white)) {
+  &-#{$name}-outlined {
+    border: solid 1px $bg-color;
+    background-color: $fg-color;
+    color: $bg-color;
+    @content;
+  }
+}
