@@ -1,6 +1,6 @@
 import { useEffect, type FC } from 'react'
 import type { TModal } from './TModal'
-import { classList } from '@repo/utils/dom'
+import clsx from 'clsx'
 import './Modal.scss'
 
 export const Modal: FC<TModal> = ({
@@ -40,9 +40,9 @@ export const Modal: FC<TModal> = ({
       onClick={disablePortal ? undefined : handleClose}
     >
       <div
-        className={classList([
+        className={clsx([
           `modal__container`,
-          maxWidth != 'sx' ? `modal__container--${maxWidth}` : '',
+          maxWidth == 'sx' ? '' : `modal__container--${maxWidth}`,
           className
         ])}
       >

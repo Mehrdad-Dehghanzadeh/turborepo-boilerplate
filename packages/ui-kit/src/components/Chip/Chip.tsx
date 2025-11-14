@@ -1,6 +1,6 @@
 import { type FC } from 'react'
 import { TChip } from './TChip'
-import { classList } from '@repo/utils/dom'
+import clsx from 'clsx'
 import './Chip.scss'
 
 export const Chip: FC<TChip> = ({
@@ -11,7 +11,7 @@ export const Chip: FC<TChip> = ({
   ...props
 }) => {
   return (
-    <span className={classList(['chip', `chip-${color}`, className])} {...props}>
+    <span className={clsx(['chip', `chip-${color}`, className])} {...props}>
       <span className="chip__container">{children}</span>
     </span>
   )

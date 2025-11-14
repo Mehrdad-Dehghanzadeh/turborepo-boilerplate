@@ -3,7 +3,7 @@ import type { TTextFieldProps } from './TTextField'
 import { Controller } from 'react-hook-form'
 import type { RenderFC } from '@repo/shared-types/Forms'
 import useFormElements from '@repo/ui-kit/hooks/useFormElements'
-import { classList } from '@repo/utils/dom'
+import clsx from 'clsx'
 import './TextField.scss'
 
 export const TextField: FC<TTextFieldProps> = ({
@@ -28,7 +28,7 @@ export const TextField: FC<TTextFieldProps> = ({
         <>
           <div className="text-field__wrapper">
             <input
-              className={classList([
+              className={clsx([
                 'text-field__input',
                 { 'text-field__input--error': fieldState.invalid }
               ])}
