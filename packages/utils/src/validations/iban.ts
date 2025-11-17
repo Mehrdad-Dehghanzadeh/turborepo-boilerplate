@@ -1,5 +1,5 @@
 export function isIban(value: string): boolean {
-  const iban = value.replace(/ /g, '').toUpperCase()
+  const iban = value.replaceAll(' ', '').toUpperCase()
   let ibancheckdigits = ''
   let leadingZeroes = true
   let cRest: any = ''
